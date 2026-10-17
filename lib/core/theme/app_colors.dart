@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  static const Color primary = Color(0xFF6A8CAF); // azul grisáceo
+  static const Color primary = Color(0xFF5B7DB1); // acordado: se conserva el tono intermedio
   static const Color secondary = Color(0xFF9DB4C0); // celeste suave
   static const Color accent = Color(0xFFE2B66E); // dorado tenue (estrellas)
   static const Color background = Color(0xFFF6F7FB);
