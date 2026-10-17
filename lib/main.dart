@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/theme/app_theme.dart';
+import 'presentation/screens/home_screen.dart';
 
 void main() {
   runApp(const CinetecaApp());
@@ -15,7 +16,7 @@ class CinetecaApp extends StatelessWidget {
       title: 'Cineteca',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: const Scaffold(body: Center(child: Text('Cineteca'))),
+      home: const HomeScreen(),
     );
   }
 }
