@@ -1,0 +1,121 @@
+{
+  "genres": [
+    { "id": "drama", "name": "Drama", "icon": "theater" },
+    { "id": "scifi", "name": "Ciencia ficción", "icon": "rocket" },
+    { "id": "animation", "name": "Animación", "icon": "palette" },
+    { "id": "comedy", "name": "Comedia", "icon": "smile" },
+    { "id": "thriller", "name": "Suspenso", "icon": "eye" }
+  ],
+  "movies": [
+    {
+      "id": 1, "title": "Horizonte Azul", "year": 2021, "duration": 128, "rating": 4.5,
+      "genreId": "scifi", "director": "Lucía Ferrer",
+      "synopsis": "Una tripulación viaja al borde del sistema solar para investigar una señal que podría cambiar la historia de la humanidad.",
+      "poster": "https://picsum.photos/seed/horizonte/400/600",
+      "backdrop": "https://picsum.photos/seed/horizonte-bg/800/450",
+      "cast": [
+        { "name": "Andrés Molina", "role": "Capitán Rivas", "photo": "https://picsum.photos/seed/actor11/150/150" },
+        { "name": "Sofía Lara", "role": "Dra. Ibarra", "photo": "https://picsum.photos/seed/actor5/150/150" }
+      ]
+    },
+    {
+      "id": 2, "title": "La Casa del Olivo", "year": 2019, "duration": 112, "rating": 4.2,
+      "genreId": "drama", "director": "Martín Cruz",
+      "synopsis": "Tres hermanos regresan al pueblo de su infancia para decidir el futuro de la casa familiar.",
+      "poster": "https://picsum.photos/seed/olivo/400/600",
+      "backdrop": "https://picsum.photos/seed/olivo-bg/800/450",
+      "cast": [
+        { "name": "Elena Duarte", "role": "Marta", "photo": "https://picsum.photos/seed/actor9/150/150" },
+        { "name": "Pablo Ríos", "role": "Joaquín", "photo": "https://picsum.photos/seed/actor12/150/150" }
+      ]
+    },
+    {
+      "id": 3, "title": "Pequeño Faro", "year": 2022, "duration": 95, "rating": 4.8,
+      "genreId": "animation", "director": "Ana Beltrán",
+      "synopsis": "Un faro que cobra vida ayuda a una niña a encontrar el camino de regreso a casa tras una tormenta.",
+      "poster": "https://picsum.photos/seed/faro/400/600",
+      "backdrop": "https://picsum.photos/seed/faro-bg/800/450",
+      "cast": [
+        { "name": "Valeria Soto", "role": "Nina (voz)", "photo": "https://picsum.photos/seed/actor16/150/150" },
+        { "name": "Jorge Peña", "role": "Faro (voz)", "photo": "https://picsum.photos/seed/actor14/150/150" }
+      ]
+    },
+    {
+      "id": 4, "title": "Lunes Otra Vez", "year": 2020, "duration": 101, "rating": 3.9,
+      "genreId": "comedy", "director": "Diego Salas",
+      "synopsis": "Un oficinista queda atrapado en el mismo lunes una y otra vez hasta aprender a disfrutarlo.",
+      "poster": "https://picsum.photos/seed/lunes/400/600",
+      "backdrop": "https://picsum.photos/seed/lunes-bg/800/450",
+      "cast": [
+        { "name": "Raúl Ortega", "role": "Tomás", "photo": "https://picsum.photos/seed/actor13/150/150" },
+        { "name": "Camila Vega", "role": "Inés", "photo": "https://picsum.photos/seed/actor20/150/150" }
+      ]
+    },
+    {
+      "id": 5, "title": "Sombras en el Muelle", "year": 2023, "duration": 118, "rating": 4.3,
+      "genreId": "thriller", "director": "Irene Navarro",
+      "synopsis": "Una detective investiga desapariciones en un puerto donde nadie parece decir la verdad.",
+      "poster": "https://picsum.photos/seed/muelle/400/600",
+      "backdrop": "https://picsum.photos/seed/muelle-bg/800/450",
+      "cast": [
+        { "name": "Natalia Ruiz", "role": "Det. Campos", "photo": "https://picsum.photos/seed/actor25/150/150" },
+        { "name": "Héctor Gil", "role": "Salvador", "photo": "https://picsum.photos/seed/actor15/150/150" }
+      ]
+    },
+    {
+      "id": 6, "title": "Código Aurora", "year": 2024, "duration": 134, "rating": 4.6,
+      "genreId": "scifi", "director": "Tomás Arce",
+      "synopsis": "Una inteligencia artificial despierta en una estación polar y debe decidir en quién confiar.",
+      "poster": "https://picsum.photos/seed/aurora/400/600",
+      "backdrop": "https://picsum.photos/seed/aurora-bg/800/450",
+      "cast": [
+        { "name": "Laura Méndez", "role": "Aurora (voz)", "photo": "https://picsum.photos/seed/actor32/150/150" },
+        { "name": "Iván Torres", "role": "Ing. Bravo", "photo": "https://picsum.photos/seed/actor33/150/150" }
+      ]
+    },
+    {
+      "id": 7, "title": "Cartas a Valparaíso", "year": 2018, "duration": 107, "rating": 4.1,
+      "genreId": "drama", "director": "Clara Ibáñez",
+      "synopsis": "Un cartero descubre cartas nunca entregadas y decide llevarlas a sus destinatarios décadas después.",
+      "poster": "https://picsum.photos/seed/cartas/400/600",
+      "backdrop": "https://picsum.photos/seed/cartas-bg/800/450",
+      "cast": [
+        { "name": "Emilio Paz", "role": "Ramón", "photo": "https://picsum.photos/seed/actor51/150/150" },
+        { "name": "Rosa Aguirre", "role": "Teresa", "photo": "https://picsum.photos/seed/actor44/150/150" }
+      ]
+    },
+    {
+      "id": 8, "title": "Bosque de Papel", "year": 2021, "duration": 89, "rating": 4.4,
+      "genreId": "animation", "director": "Sergio Luna",
+      "synopsis": "Criaturas de origami defienden su bosque de un viento que amenaza con llevárselo todo.",
+      "poster": "https://picsum.photos/seed/papel/400/600",
+      "backdrop": "https://picsum.photos/seed/papel-bg/800/450",
+      "cast": [
+        { "name": "Marina Costa", "role": "Kumo (voz)", "photo": "https://picsum.photos/seed/actor47/150/150" },
+        { "name": "Luis Fajardo", "role": "Viento (voz)", "photo": "https://picsum.photos/seed/actor52/150/150" }
+      ]
+    },
+    {
+      "id": 9, "title": "Boda en Apuros", "year": 2022, "duration": 99, "rating": 3.7,
+      "genreId": "comedy", "director": "Paula Herrera",
+      "synopsis": "A dos días de la boda, el anillo desaparece y toda la familia se convierte en sospechosa.",
+      "poster": "https://picsum.photos/seed/boda/400/600",
+      "backdrop": "https://picsum.photos/seed/boda-bg/800/450",
+      "cast": [
+        { "name": "Daniela Mora", "role": "Lucía", "photo": "https://picsum.photos/seed/actor48/150/150" },
+        { "name": "Óscar Lima", "role": "Beto", "photo": "https://picsum.photos/seed/actor59/150/150" }
+      ]
+    },
+    {
+      "id": 10, "title": "El Último Testigo", "year": 2020, "duration": 122, "rating": 4.0,
+      "genreId": "thriller", "director": "Ramiro Cano",
+      "synopsis": "El único testigo de un crimen tiene 48 horas para probar su inocencia antes del juicio.",
+      "poster": "https://picsum.photos/seed/testigo/400/600",
+      "backdrop": "https://picsum.photos/seed/testigo-bg/800/450",
+      "cast": [
+        { "name": "Fernando Ávila", "role": "Gabriel", "photo": "https://picsum.photos/seed/actor60/150/150" },
+        { "name": "Julia Serrano", "role": "Fiscal Ponce", "photo": "https://picsum.photos/seed/actor41/150/150" }
+      ]
+    }
+  ]
+}
