@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
           }
           return ListView(
             children: [
-              const SectionTitle(title: 'Recomendadas'),
+              const SectionTitle(title: 'Top recomendadas'),
               SizedBox(
                 height: 270,
                 child: ListView.separated(
