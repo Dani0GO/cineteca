@@ -13,7 +13,7 @@ class CinetecaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'CineApp',
+      title: 'Cineteca',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       home: const HomeScreen(),
