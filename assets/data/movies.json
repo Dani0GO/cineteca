@@ -8,7 +8,7 @@
   ],
   "movies": [
     {
-      "id": 1, "title": "Horizonte Azul", "year": 2021, "duration": 128, "rating": 4.7,
+      "id": 1, "title": "Horizonte Azul", "year": 2021, "duration": 128, "rating": 4.6,
       "genreId": "scifi", "director": "Lucía Ferrer",
       "synopsis": "Una tripulación viaja al borde del sistema solar para investigar una señal que podría cambiar la historia de la humanidad.",
       "poster": "https://picsum.photos/seed/horizonte/400/600",
